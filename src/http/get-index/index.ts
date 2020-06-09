@@ -60,7 +60,7 @@ export async function handler (req: object) {
 }
 */
 
-Deliver client-side JS
+// Deliver client-side JS
 export async function handler (req: object) {
   return {
     headers: {
