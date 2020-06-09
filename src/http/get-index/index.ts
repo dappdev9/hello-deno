@@ -12,7 +12,7 @@ let body = `
 
     <h1 class="center-text">
       <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      Hello Deno!
     </h1>
 
     <p class="center-text">
@@ -60,14 +60,14 @@ export async function handler (req: object) {
 }
 */
 
-/* Deliver client-side JS
+Deliver client-side JS
 export async function handler (req: object) {
   return {
     headers: {
       'content-type': 'text/javascript; charset=utf8',
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
     },
-    body: 'console.log("Hello world!")',
+    body: 'console.log("Hello Deno!")',
   }
 }
-*/
+
